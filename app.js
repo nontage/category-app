@@ -3,7 +3,7 @@ let products = [];
 let index = 0;
 
 // ★ あなたの Apps Script Webアプリ URL
-const GAS_URL = "https://script.google.com/macros/s/AKfycbxsCW4oLJgWszdRyT7Ax_FC6HCacm4BakU-f6dtlQkAB6sz8N4nG7k_BqmtVCS9mw5m0A/exec";
+const GAS_URL = "https://script.google.com/macros/s/AKfycbwhNxuHW5eoMV4Nn7nRmqhNe0T2hZU9U7YEtbiDGKPuFPTWeHt582D5cJfVlyw1H13i5g/exec";
 
 // 初期化
 window.onload = async () => {
