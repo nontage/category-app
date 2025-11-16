@@ -3,7 +3,7 @@ let products = [];
 let index = 0;
 
 // ★ あなたの Apps Script Webアプリ URL
-const GAS_URL = "https://script.google.com/macros/s/AKfycbxjYt7W_z7PL-Ft6Lg6njY7ZzGhMerH-Sdw4hXnCLHY8hAi81quekgUyxhmMsUb3NOGpQ/exec";
+const GAS_URL = "https://script.google.com/macros/s/AKfycbxsCW4oLJgWszdRyT7Ax_FC6HCacm4BakU-f6dtlQkAB6sz8N4nG7k_BqmtVCS9mw5m0A/exec";
 
 window.onload = async () => {
   master = await fetch("category_master.json").then(r => r.json());
