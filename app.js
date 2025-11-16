@@ -3,7 +3,7 @@ let products = [];
 let index = 0;
 
 // ★ あなたの Apps Script Webアプリ URL
-const GAS_URL = "https://script.google.com/macros/s/AKfycbxsCW4oLJgWszdRyT7Ax_FC6HCacm4BakU-f6dtlQkAB6sz8N4nG7k_BqmtVCS9mw5m0A/exec";
+const GAS_URL = "https://script.google.com/macros/s/AKfycbw9Hy0xwvdtBNYzCYC1ee-2R6GeM69gK_Vd7fYSkEddsVy6cEY4p4f4W4KaFXGP4Qx5oA/exec";
 
 window.onload = async () => {
   master = await fetch("category_master.json").then(r => r.json());
@@ -127,3 +127,4 @@ function setupEvents() {
   document.getElementById("saveBtn").onclick = saveToSheet;
   document.getElementById("csvBtn").onclick = downloadCSV;
 }
+
